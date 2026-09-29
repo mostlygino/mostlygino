@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hettie</title>
+  <desc id="desc">Hettie: cited answers from your own wiki, TLP-aware and self-hosted. A knowledge graph of cited passages with Traffic Light Protocol colour bands.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0a08"/>
+      <stop offset="0.55" stop-color="#05070a"/>
+      <stop offset="1" stop-color="#0d0a06"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.45" r="0.5">
+      <stop offset="0" stop-color="#e0b070" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#e0b070" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff4e2"/>
+      <stop offset="1" stop-color="#e0b070"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <rect width="1280" height="360" fill="url(#glow)"/>
+
+  <!-- knowledge graph -->
+  <g stroke="#e0b070" stroke-opacity="0.35" stroke-width="1.4" fill="none">
+    <path d="M760 90 L880 150 L1010 96 L1130 160 L1210 110"/>
+    <path d="M880 150 L850 250 L990 270 L1130 160"/>
+    <path d="M1010 96 L990 270"/>
+    <path d="M760 90 L800 190 L850 250"/>
+    <path d="M1130 160 L1180 270"/>
+    <path d="M990 270 L1180 270"/>
+  </g>
+  <g stroke="#e0b070" stroke-opacity="0.12" stroke-width="1" fill="none" stroke-dasharray="3 5">
+    <path d="M800 190 L700 110"/>
+    <path d="M1210 110 L1260 60"/>
+    <path d="M850 250 L800 320"/>
+  </g>
+  <g fill="#e0b070">
+    <circle cx="760" cy="90" r="5"/>
+    <circle cx="800" cy="190" r="4"/>
+    <circle cx="850" cy="250" r="5"/>
+    <circle cx="1130" cy="160" r="6"/>
+    <circle cx="1210" cy="110" r="4"/>
+    <circle cx="1180" cy="270" r="5"/>
+    <circle cx="700" cy="110" r="2.5" fill-opacity="0.5"/>
+    <circle cx="1260" cy="60" r="2.5" fill-opacity="0.5"/>
+    <circle cx="800" cy="320" r="2.5" fill-opacity="0.5"/>
+  </g>
+
+  <!-- cited passage cards on graph nodes -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13">
+    <g transform="translate(846 128)">
+      <rect width="92" height="44" rx="8" fill="#14110c" stroke="#e0b070" stroke-opacity="0.8"/>
+      <text x="12" y="27" fill="#e0b070" font-weight="700">[1]</text>
+      <rect x="44" y="15" width="38" height="6" rx="3" fill="#ffffff" fill-opacity="0.35"/>
+      <rect x="44" y="26" width="26" height="6" rx="3" fill="#ffffff" fill-opacity="0.2"/>
+      <rect x="0" y="40" width="92" height="4" fill="#33ff00" fill-opacity="0.85"/>
+    </g>
+    <g transform="translate(962 70)">
+      <rect width="92" height="44" rx="8" fill="#14110c" stroke="#e0b070" stroke-opacity="0.8"/>
+      <text x="12" y="27" fill="#e0b070" font-weight="700">[2]</text>
+      <rect x="44" y="15" width="38" height="6" rx="3" fill="#ffffff" fill-opacity="0.35"/>
+      <rect x="44" y="26" width="30" height="6" rx="3" fill="#ffffff" fill-opacity="0.2"/>
+      <rect x="0" y="40" width="92" height="4" fill="#ffffff" fill-opacity="0.85"/>
+    </g>
+    <g transform="translate(944 248)">
+      <rect width="92" height="44" rx="8" fill="#14110c" stroke="#ffc000" stroke-opacity="0.9" stroke-dasharray="4 3"/>
+      <text x="12" y="27" fill="#ffc000" font-weight="700">AMBER</text>
+      <rect x="0" y="40" width="92" height="4" fill="#ffc000" fill-opacity="0.9"/>
+    </g>
+    <g transform="translate(1146 224)" opacity="0.9">
+      <rect width="72" height="36" rx="8" fill="#14110c" stroke="#ff2b2b" stroke-opacity="0.9" stroke-dasharray="4 3"/>
+      <text x="17" y="23" fill="#ff2b2b" font-weight="700">RED</text>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <text x="72" y="178" font-family="ui-sans-serif, -apple-system, 'SF Pro Display', 'Segoe UI', sans-serif" font-size="112" font-weight="800" letter-spacing="-3" fill="url(#name)">Hettie</text>
+  <text x="76" y="226" font-family="ui-sans-serif, -apple-system, 'SF Pro Display', 'Segoe UI', sans-serif" font-size="26" font-weight="500" fill="#f2e6d4">Cited answers from your own wiki. TLP-aware. Self-hosted.</text>
+  <text x="77" y="266" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="15" fill="#e0b070" fill-opacity="0.85">hybrid retrieval · citation check · TLP gate · MCP</text>
+
+  <!-- TLP colour bands -->
+  <g>
+    <rect x="0" y="348" width="320" height="12" fill="#ff2b2b"/>
+    <rect x="320" y="348" width="320" height="12" fill="#ffc000"/>
+    <rect x="640" y="348" width="320" height="12" fill="#33ff00"/>
+    <rect x="960" y="348" width="320" height="12" fill="#ffffff"/>
+  </g>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#05070a" fill-opacity="0.8">
+    <text x="12" y="358">TLP:RED</text>
+    <text x="332" y="358">TLP:AMBER</text>
+    <text x="652" y="358">TLP:GREEN</text>
+    <text x="972" y="358">TLP:CLEAR</text>
+  </g>
+</svg>

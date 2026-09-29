@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="448" viewBox="0 0 640 448" role="img" aria-label="How I build: The AI never has the last word; Fail closed; Missing is not clean; Keys stay on the server; Self-hosted by default; Keyboard first. Where each rule shows is redacted.">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f3f4fa"/>
+    </linearGradient>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#cfd3f6"/>
+    </pattern>
+    <filter id="lift" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="638" height="446" rx="22" fill="url(#card)" stroke="rgba(0,0,0,0.09)" stroke-width="1.5"/>
+  <rect x="1" y="1" width="638" height="446" rx="22" fill="url(#dots)" opacity="0.18"/>
+  <text x="40" y="56" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="17" letter-spacing="2.4" fill="rgba(60,60,67,0.62)">HOW I BUILD</text>
+  <text x="600" y="56" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="17" letter-spacing="2.4" fill="rgba(60,60,67,0.62)">WHERE IT SHOWS</text>
+  <path d="M40 76H600" stroke="rgba(0,0,0,0.09)"/>
+  <circle cx="53" cy="116" r="12" fill="rgba(0,98,204,0.10)" stroke="#0062cc" stroke-width="1.8"/><path d="M47 116 l4.5 4.5 l7.5 -8.5" fill="none" stroke="#0062cc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><text x="78" y="124" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#000000">The AI never has the last word</text><rect x="450" y="104" width="150" height="20" rx="3" fill="#1c1c1e" stroke="rgba(0,0,0,0.09)"/>
+  <circle cx="53" cy="166" r="12" fill="rgba(0,98,204,0.10)" stroke="#0062cc" stroke-width="1.8"/><path d="M47 166 l4.5 4.5 l7.5 -8.5" fill="none" stroke="#0062cc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><text x="78" y="174" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#000000">Fail closed</text><rect x="430" y="154" width="170" height="20" rx="3" fill="#1c1c1e" stroke="rgba(0,0,0,0.09)"/>
+  <circle cx="53" cy="216" r="12" fill="rgba(0,98,204,0.10)" stroke="#0062cc" stroke-width="1.8"/><path d="M47 216 l4.5 4.5 l7.5 -8.5" fill="none" stroke="#0062cc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><text x="78" y="224" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#000000">Missing is not clean</text><rect x="440" y="204" width="160" height="20" rx="3" fill="#1c1c1e" stroke="rgba(0,0,0,0.09)"/>
+  <circle cx="53" cy="266" r="12" fill="rgba(0,98,204,0.10)" stroke="#0062cc" stroke-width="1.8"/><path d="M47 266 l4.5 4.5 l7.5 -8.5" fill="none" stroke="#0062cc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><text x="78" y="274" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#000000">Keys stay on the server</text><rect x="474" y="254" width="126" height="20" rx="3" fill="#1c1c1e" stroke="rgba(0,0,0,0.09)"/>
+  <circle cx="53" cy="316" r="12" fill="rgba(0,98,204,0.10)" stroke="#0062cc" stroke-width="1.8"/><path d="M47 316 l4.5 4.5 l7.5 -8.5" fill="none" stroke="#0062cc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><text x="78" y="324" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#000000">Self-hosted by default</text><rect x="460" y="304" width="140" height="20" rx="3" fill="#1c1c1e" stroke="rgba(0,0,0,0.09)"/>
+  <circle cx="53" cy="366" r="12" fill="rgba(0,98,204,0.10)" stroke="#0062cc" stroke-width="1.8"/><path d="M47 366 l4.5 4.5 l7.5 -8.5" fill="none" stroke="#0062cc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><text x="78" y="374" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#000000">Keyboard first</text><text x="600" y="374" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="17" fill="rgba(60,60,67,0.62)">⌘K almost everywhere</text>
+  <text x="40" y="416" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="rgba(60,60,67,0.62)">Six rules, in every project. The where: on request.</text>
+</svg>

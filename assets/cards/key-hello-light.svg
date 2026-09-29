@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="448" viewBox="0 0 640 448" role="img" aria-label="PGP key for hello@mostlygino.com, ed25519. Fingerprint 339A 0B04 A8B0 EDD4 A7F9 434E 6A3A D939 5C3A 3E4F. Download the .asc.">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f3f4fa"/>
+    </linearGradient>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#cfd3f6"/>
+    </pattern>
+    <filter id="lift" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="638" height="446" rx="22" fill="url(#card)" stroke="rgba(0,0,0,0.09)" stroke-width="1.5"/>
+  <rect x="1" y="1" width="638" height="446" rx="22" fill="url(#dots)" opacity="0.18"/>
+  <text x="40" y="56" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="17" letter-spacing="2.4" fill="rgba(60,60,67,0.62)">PGP · GENERAL</text>
+  <rect x="544" y="28" width="56" height="56" rx="14" fill="rgba(0,98,204,0.10)" stroke="rgba(0,0,0,0.09)"/>
+  <g fill="none" stroke="#0062cc" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="563" cy="56" r="8"/><path d="M571 56H590M584 56v7M590 56v5"/>
+  </g>
+  <text x="40" y="130" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="30" fill="#000000">hello<tspan fill="rgba(60,60,67,0.62)">@mostlygino.com</tspan></text>
+  <text x="40" y="166" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif" font-size="20" fill="rgba(60,60,67,0.62)">Walkthroughs, questions, the story behind a bar.</text>
+  <path d="M40 198H600" stroke="rgba(0,0,0,0.09)"/>
+  <text x="40" y="240" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="14" letter-spacing="1.4" fill="rgba(60,60,67,0.62)">FINGERPRINT</text>
+  <g font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="32"><text x="40" y="288" fill="#000000">339A</text><text x="152" y="288" fill="#000000">0B04</text><text x="264" y="288" fill="#000000">A8B0</text><text x="376" y="288" fill="#000000">EDD4</text><text x="488" y="288" fill="#000000">A7F9</text><text x="40" y="334" fill="#000000">434E</text><text x="152" y="334" fill="#0062cc">6A3A</text><text x="264" y="334" fill="#0062cc">D939</text><text x="376" y="334" fill="#0062cc">5C3A</text><text x="488" y="334" fill="#0062cc">3E4F</text></g>
+  <path d="M152 350H566" stroke="#0062cc" stroke-opacity="0.55" stroke-width="1.5"/>
+  <text x="566" y="372" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="1.4" fill="rgba(60,60,67,0.62)">LONG KEY ID</text>
+  <rect x="40" y="386" width="92" height="34" rx="17.0" fill="none" stroke="rgba(0,0,0,0.09)" stroke-opacity="1"/><text x="86" y="408" text-anchor="middle" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="15" fill="#000000" fill-opacity="0.78">ed25519</text><rect x="142" y="386" width="92" height="34" rx="17.0" fill="none" stroke="rgba(0,0,0,0.09)" stroke-opacity="1"/><text x="188" y="408" text-anchor="middle" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="15" fill="#000000" fill-opacity="0.78">cv25519</text><rect x="244" y="386" width="120" height="34" rx="17.0" fill="none" stroke="rgba(0,0,0,0.09)" stroke-opacity="1"/><text x="304" y="408" text-anchor="middle" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="15" fill="#000000" fill-opacity="0.78">2026-09-27</text>
+  <text x="600" y="410" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#0062cc">.asc ↓</text>
+</svg>

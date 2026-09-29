@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="t d">
+  <title id="t">Gravedigger</title>
+  <desc id="d">Everything buried about a target. Surfaced. A scan point in layered strata fans out to intelligence sources.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d12"/>
+      <stop offset="1" stop-color="#05070a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.74" cy="0.78" r="0.55">
+      <stop offset="0" stop-color="#f97316" stop-opacity="0.28"/>
+      <stop offset="0.45" stop-color="#f97316" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowL" cx="0.08" cy="0.1" r="0.5">
+      <stop offset="0" stop-color="#fb923c" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#fb923c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dig" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fdba74"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="ray" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#f97316" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0.15"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <rect width="1280" height="360" fill="url(#glowL)"/>
+  <rect width="1280" height="360" fill="url(#glow)"/>
+
+  <!-- strata -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M0 292 C160 280 300 300 460 288 S760 276 900 290 S1140 300 1280 284" stroke="#f97316" stroke-opacity="0.35" stroke-width="1.5"/>
+    <path d="M0 312 C200 302 340 320 520 308 S820 298 980 312 S1180 318 1280 306" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1"/>
+    <path d="M0 330 C180 322 360 338 560 328 S860 320 1020 332 S1200 336 1280 326" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+    <path d="M0 347 C220 340 400 354 600 346 S900 340 1060 350 S1220 352 1280 345" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  </g>
+  <g fill="#ffffff" fill-opacity="0.10">
+    <circle cx="120" cy="322" r="1.5"/><circle cx="260" cy="338" r="1.2"/><circle cx="410" cy="318" r="1.4"/>
+    <circle cx="640" cy="336" r="1.2"/><circle cx="1180" cy="340" r="1.5"/><circle cx="1240" cy="318" r="1.2"/>
+  </g>
+
+  <!-- scan fan: origin at the dig point -->
+  <g stroke="url(#ray)" stroke-width="1.25" fill="none">
+    <path d="M950 286 L760 96"/>
+    <path d="M950 286 L832 64"/>
+    <path d="M950 286 L912 52"/>
+    <path d="M950 286 L992 52"/>
+    <path d="M950 286 L1072 64"/>
+    <path d="M950 286 L1146 92"/>
+    <path d="M950 286 L1208 138"/>
+    <path d="M950 286 L704 142"/>
+  </g>
+  <g fill="none" stroke="#f97316" stroke-opacity="0.18">
+    <path d="M830 286 A120 120 0 0 1 1070 286" stroke-dasharray="2 6"/>
+    <path d="M770 286 A180 180 0 0 1 1130 286" stroke-dasharray="2 8" stroke-opacity="0.12"/>
+  </g>
+
+  <!-- source nodes -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="0.5" fill="#cbd5e1">
+    <g><circle cx="704" cy="142" r="5" fill="#0b0d12" stroke="#fb923c" stroke-width="1.5"/><text x="692" y="146" text-anchor="end">DNS</text></g>
+    <g><circle cx="760" cy="96" r="5" fill="#0b0d12" stroke="#fb923c" stroke-width="1.5"/><text x="748" y="100" text-anchor="end">DNSBL</text></g>
+    <g><circle cx="832" cy="64" r="5" fill="#0b0d12" stroke="#fb923c" stroke-width="1.5"/><text x="832" y="46" text-anchor="middle">abuse.ch</text></g>
+    <g><circle cx="912" cy="52" r="5" fill="#0b0d12" stroke="#fb923c" stroke-width="1.5"/><text x="912" y="34" text-anchor="middle">BGP</text></g>
+    <g><circle cx="992" cy="52" r="5" fill="#0b0d12" stroke="#fb923c" stroke-width="1.5"/><text x="992" y="34" text-anchor="middle">TLS</text></g>
+    <g><circle cx="1072" cy="64" r="5" fill="#0b0d12" stroke="#fb923c" stroke-width="1.5"/><text x="1072" y="46" text-anchor="middle">RPKI</text></g>
+    <g><circle cx="1146" cy="92" r="5" fill="#0b0d12" stroke="#fb923c" stroke-width="1.5"/><text x="1158" y="96">NetFlow</text></g>
+    <g><circle cx="1208" cy="138" r="5" fill="#0b0d12" stroke="#fb923c" stroke-width="1.5"/><text x="1208" y="162" text-anchor="middle">PCAP</text></g>
+  </g>
+
+  <!-- dig point -->
+  <circle cx="950" cy="286" r="26" fill="#f97316" fill-opacity="0.12"/>
+  <circle cx="950" cy="286" r="14" fill="#f97316" fill-opacity="0.25"/>
+  <circle cx="950" cy="286" r="6" fill="url(#dig)"/>
+  <!-- shovel glyph -->
+  <g transform="translate(880 262) rotate(-32) scale(0.85)" fill="none" stroke="#fdba74" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-9 -34 H9"/>
+    <path d="M0 -34 V0"/>
+    <path d="M-12 0 H12 V12 C12 22 0 30 0 30 C0 30 -12 22 -12 12 Z" fill="#f97316" fill-opacity="0.9" stroke="#fdba74"/>
+  </g>
+
+  <!-- wordmark -->
+  <g font-family="ui-sans-serif, -apple-system, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="72" y="170" font-size="92" font-weight="800" letter-spacing="-3" fill="#f5f5f4">Grave<tspan fill="url(#dig)">digger</tspan></text>
+    <text x="76" y="218" font-size="24" font-weight="500" fill="#d6d3d1">Everything buried about a target. Surfaced.</text>
+  </g>
+  <text x="77" y="258" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" letter-spacing="1.5" fill="#f97316" fill-opacity="0.85">IP  ·  DOMAIN  ·  URL  ·  HASH  ·  CIDR  ·  ASN</text>
+</svg>

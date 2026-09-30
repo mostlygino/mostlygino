@@ -5,7 +5,7 @@ through <img>, so the README wraps each card in its own link), and every bar
 is a bar in the source too: nothing redacted is hidden in these files.
 """
 
-from make import BUILD, ICON, MONO, SANS
+from make import BUILD, MONO, SANS, site_field
 
 
 def frame(t: dict, w: int, h: int, label: str, body: str) -> str:
@@ -128,10 +128,10 @@ def site(t: dict) -> str:
   <circle cx="740" cy="80" r="6" fill="#ff5f57"/><circle cx="760" cy="80" r="6" fill="#febc2e"/><circle cx="780" cy="80" r="6" fill="#28c840"/>
   <rect x="866" y="66" width="200" height="28" rx="9" fill="{t["badge_bg"]}"/>
   <text x="966" y="85" text-anchor="middle" font-family="{MONO}" font-size="14" fill="{t["badge_fg"]}">mostlygino.com</text>
-  <image href="data:image/png;base64,{ICON}" x="752" y="140" width="104" height="104"/>
+  <image href="data:image/png;base64,{t["icon"]}" x="752" y="140" width="104" height="104"/>
   <g font-family="{SANS}">
     <text x="880" y="186" font-size="46" font-weight="600" letter-spacing="-1.4" fill="{t["label"]}">Gino</text>
-    <text x="882" y="214" font-size="18" fill="{t["label2"]}">Security &amp; compliance</text>
+    <text x="882" y="214" font-size="18" fill="{t["label2"]}">{site_field("tagline", "Security Engineer")}</text>
   </g>
   <rect x="882" y="228" width="44" height="22" rx="6" fill="{t["badge_bg"]}"/>
   <text x="904" y="243" text-anchor="middle" font-family="{MONO}" font-size="11" letter-spacing="1" fill="{t["badge_fg"]}">BETA</text>
@@ -140,7 +140,7 @@ def site(t: dict) -> str:
   <text x="774" y="322" font-family="{SANS}" font-size="17" fill="{t["muted"]}">Search, or type a command</text>
   <rect x="1122" y="303" width="44" height="26" rx="7" fill="{t["badge_bg"]}"/>
   <text x="1144" y="321" text-anchor="middle" font-family="{SANS}" font-size="14" fill="{t["badge_fg"]}">⌘K</text>
-  <text x="752" y="376" font-family="{MONO}" font-size="13" letter-spacing="1.6" fill="{t["muted"]}">ABOUT  ·  TOOLS  ·  HARDWARE  ·  NOTES</text>"""
+  <text x="752" y="376" font-family="{MONO}" font-size="13" letter-spacing="1.6" fill="{t["muted"]}">ABOUT  ·  WORK  ·  TOOLS  ·  HARDWARE</text>"""
     return frame(t, 1280, 452, "mostlygino.com: Apple on the surface, Unix underneath. Who I am, what I use, and a few things to find. Visit the site.", body)
 
 

@@ -1,7 +1,7 @@
 <a href="https://mostlygino.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img alt="Gino. Security and compliance, behind a VPN." src="assets/banner-light.svg" width="100%">
+    <img alt="Gino. Security Engineer, behind a VPN." src="assets/banner-light.svg" width="100%">
   </picture>
 </a>
 

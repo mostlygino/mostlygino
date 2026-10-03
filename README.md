@@ -91,3 +91,7 @@ gpg --keyserver hkps://keys.openpgp.org --recv-keys \
 <br>
 
 <p align="center"><sub>here be questionable code</sub></p>
+
+## Design guidance
+
+See [DESIGN.md](DESIGN.md) for the shared skeuomorphic app standard and this project’s design decisions.

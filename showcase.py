@@ -10,6 +10,7 @@ from __future__ import annotations
 
 from cards import bar, frame, kicker
 from make import MONO, SANS
+from projects import app_icon
 
 SANS_W, MONO_W = 0.48, 0.61  # average advance per character, as a share of font size
 
@@ -163,13 +164,16 @@ CARD_W, TEXT_W = 640, 560
 
 
 def project_body(t: dict, p: tuple, accent: str) -> tuple[str, float, list[str]]:
-    _, name, mark, category, where, line, latest, stack, _, live = p
+    key, name, mark, category, where, line, latest, stack, _, live = p
     status = "LIVE" if live else "PRIVATE"
     sw = len(status) * 15 * MONO_W + 26
-    parts = [
+    glyph = (
         f'<rect x="40" y="40" width="68" height="68" rx="18" fill="{accent}" fill-opacity="0.14" stroke="{accent}" stroke-opacity="0.5"/>',
         f'<text x="74" y="{86 if len(mark) == 1 else 84}" text-anchor="middle" font-family="{SANS}" '
         f'font-size="{34 if len(mark) == 1 else 28}" font-weight="700" fill="{accent}">{mark}</text>',
+    )
+    parts = [
+        "".join(glyph) if key == "zeron" else app_icon(key, 36, 36, 76),
         f'<text x="128" y="72" font-family="{SANS}" font-size="31" font-weight="700" letter-spacing="-0.6" fill="{t["label"]}">{esc(name)}</text>',
         f'<text x="129" y="100" font-family="{MONO}" font-size="16" letter-spacing="1" fill="{t["muted"]}">{esc(category.upper())} · {esc(where.upper())}</text>',
         f'<rect x="{600 - sw:.0f}" y="44" width="{sw:.0f}" height="30" rx="15" fill="none" stroke="{accent if live else t["line"]}"/>',

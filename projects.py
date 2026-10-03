@@ -15,8 +15,11 @@ W, H = 1280, 360
 SANS = "-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif"
 MONO = "ui-monospace,'SF Mono',Menlo,Consolas,monospace"
 
-# The E from Enma's own logo, drawn at 64 units wide.
-ENMA_E = "M-13.2-16.4h27.2v6.6H-4.6v3.7H11.6v6.6H-4.6v3.7H14.2v6.6H-13.2z"
+def app_icon(name: str, x: int, y: int, size: int) -> str:
+    """Embed the local artwork: SVGs loaded as GitHub images cannot fetch files."""
+    data = base64.b64encode((HERE / f"assets/icons/{name}.png").read_bytes()).decode()
+    return (f'<image href="data:image/png;base64,{data}" x="{x}" y="{y}" '
+            f'width="{size}" height="{size}"/>')
 
 
 INK = ("#0a0b0e", "#05070a", "#07090d")
@@ -65,11 +68,7 @@ def enma() -> str:
             + (f'<path d="M{x+15} {y+26} l7 7 l13 -15" fill="none" stroke="{fill}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
                if tick else f'<rect x="{x+18}" y="{y+23}" width="14" height="4" rx="2" fill="{fill}"/>')
         )
-    fringe = "".join(
-        f'<path fill="{c}" transform="translate({dx} {dy})" d="{ENMA_E}"/>'
-        for c, dx, dy in ((GOLD, -1.25, 0.95), (VERMILION, 1.2, -0.9), (GOLD, 0.55, 1.1), (PAPER, 0, 0))
-    )
-    body = f"""  <g transform="translate(150 180) scale(2.6) rotate(20)">{fringe}</g>
+    body = f"""  {app_icon("enma", 70, 100, 160)}
   <g font-family="{SANS}">
     <text x="262" y="176" font-size="84" font-weight="700" letter-spacing="-2" fill="{PAPER}">enma <tspan font-size="40" font-weight="500" fill="{VERMILION}" font-family="{MINCHO}">閻魔</tspan></text>
     <text x="266" y="216" font-size="20" fill="{PAPER}" fill-opacity="0.72">An autonomous penetration tester</text>
@@ -86,7 +85,6 @@ def enma() -> str:
 
 
 def relay() -> str:
-    logo = base64.b64encode((HERE / "assets/relay-logo.png").read_bytes()).decode()
     rows = [
         ("Phishing site on customer VPS", "Abuse", True),
         ("Portscan complaint, repeat sender", "Abuse", False),
@@ -107,7 +105,7 @@ def relay() -> str:
         f'<text x="{766 + i * 64}" y="316" text-anchor="middle" font-family="{MONO}" font-size="13" fill="#e6f6ff">{k}</text>'
         for i, k in enumerate(["j", "k", "r", "a", "e", "⌘K"])
     )
-    body = f"""  <image href="data:image/png;base64,{logo}" x="96" y="120" width="120" height="120"/>
+    body = f"""  {app_icon("relay", 70, 100, 160)}
   <g font-family="{SANS}">
     <text x="250" y="186" font-size="84" font-weight="700" letter-spacing="-2" fill="#e6f6ff">Relay</text>
     <text x="254" y="226" font-size="20" fill="#e6f6ff" fill-opacity="0.72">The ticket client you would</text>

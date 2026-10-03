@@ -25,6 +25,15 @@
 ## Showreel
 
 <p align="center">
+  <a href="#showreel"><img src="assets/icons/enma.png" alt="Enma app icon" width="96" height="96"></a>
+  <a href="#showreel"><img src="assets/icons/gravedigger.png" alt="Gravedigger app icon" width="96" height="96"></a>
+  <a href="#showreel"><img src="assets/icons/hettie.png" alt="Hettie app icon" width="96" height="96"></a>
+  <a href="#showreel"><img src="assets/icons/relay.png" alt="Relay app icon" width="96" height="96"></a>
+  <a href="#showreel"><img src="assets/icons/tsukumo.png" alt="Tsukumo app icon" width="96" height="96"></a>
+  <a href="#showreel"><img src="assets/icons/kuro.png" alt="Kuro app icon" width="96" height="96"></a>
+</p>
+
+<p align="center">
   <img src="assets/showreel.svg" alt="Showreel: mostlygino.com, enma, Gravedigger, Hettie, Relay, Tsukumo, Kuro, and a classified file" width="100%">
 </p>
 

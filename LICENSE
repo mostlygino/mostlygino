@@ -1,0 +1,26 @@
+Copyright (c) 2026 Gino (mostlygino.com). All rights reserved.
+
+Everything in this repository is the work of Gino and is protected by
+copyright. That includes, without limitation:
+
+- the app icons, logos and their names (assets/icons/, assets/icon*.png,
+  assets/relay-logo.png);
+- the portrait, the handwritten signature and the "Built with love" sign-off
+  cards (assets/signoff/, docs/signoff/);
+- the banners, cards, showreel and every other image under assets/;
+- the README text and copy;
+- the build scripts and design tokens (*.py, readme-theme.json).
+
+No licence is granted. You may not copy, modify, redistribute, sell, trace,
+re-render, train a model on, or reuse any of it, in whole or in part, without
+prior written permission from Gino.
+
+Allowed without asking:
+
+- viewing this profile and repository on GitHub, and the forking and viewing
+  that GitHub's Terms of Service allow on github.com itself;
+- linking to this profile or to mostlygino.com;
+- using the public PGP keys in keys/ to encrypt mail to, or verify mail from,
+  the matching addresses.
+
+Want to use something? Ask: hello@mostlygino.com.

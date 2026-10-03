@@ -1,0 +1,181 @@
+{
+  "name": "Gino",
+  "eyebrow": "Security \u00b7 compliance \u00b7 build",
+  "tagline": "Security Engineer. Behind a VPN.",
+  "footer": "PRETTY INTERFACES \u00b7 UGLY THREAT MODELS",
+  "features": [],
+  "material": {
+    "kind": "paper",
+    "light": [
+      "#ede5d8",
+      "#fffaf0",
+      "#28241e",
+      "#62584b",
+      "#b9a991",
+      "#795322"
+    ],
+    "dark": [
+      "#121314",
+      "#242425",
+      "#f3eadb",
+      "#b9afa0",
+      "#56514a",
+      "#d4b57b"
+    ]
+  },
+  "icon": "assets/icon.png",
+  "apps": {
+    "enma": {
+      "kind": "lacquer",
+      "light": [
+        "#eadfce",
+        "#fbf4e6",
+        "#291914",
+        "#654736",
+        "#b9a18a",
+        "#962f1c"
+      ],
+      "dark": [
+        "#0e0b0a",
+        "#211510",
+        "#f7e9ce",
+        "#c6b29a",
+        "#775538",
+        "#efaa65"
+      ]
+    },
+    "gravedigger": {
+      "kind": "cloth",
+      "light": [
+        "#efddc5",
+        "#fff3df",
+        "#3e2517",
+        "#705039",
+        "#c29a72",
+        "#994319"
+      ],
+      "dark": [
+        "#17110d",
+        "#332217",
+        "#fcebd5",
+        "#d4b695",
+        "#76533b",
+        "#f9ad65"
+      ]
+    },
+    "hettie": {
+      "kind": "cloth",
+      "light": [
+        "#dce9e1",
+        "#f5fbf2",
+        "#173b39",
+        "#466661",
+        "#92afa2",
+        "#22655b"
+      ],
+      "dark": [
+        "#0a1d1f",
+        "#173437",
+        "#e9f4e9",
+        "#adcbc4",
+        "#476e68",
+        "#a7ceaa"
+      ]
+    },
+    "relay": {
+      "kind": "enamel",
+      "light": [
+        "#d7e5f4",
+        "#f6faff",
+        "#173957",
+        "#4d667c",
+        "#9aafc6",
+        "#155d9b"
+      ],
+      "dark": [
+        "#0b1826",
+        "#1b3049",
+        "#ecf5ff",
+        "#b3c6dc",
+        "#496783",
+        "#8ac2fa"
+      ]
+    },
+    "tsukumo": {
+      "kind": "enamel",
+      "light": [
+        "#dcece0",
+        "#f4fcf1",
+        "#203d32",
+        "#4c6958",
+        "#91b39c",
+        "#326b49"
+      ],
+      "dark": [
+        "#101d17",
+        "#253c30",
+        "#f0f7e9",
+        "#b6ceb8",
+        "#52725c",
+        "#b7dba8"
+      ]
+    },
+    "kuro": {
+      "kind": "stone",
+      "light": [
+        "#dfdde7",
+        "#f9f7fc",
+        "#2c2639",
+        "#62586e",
+        "#b4a9c1",
+        "#704580"
+      ],
+      "dark": [
+        "#09090c",
+        "#242028",
+        "#f4eef9",
+        "#bfb1ca",
+        "#58505e",
+        "#d2aee8"
+      ]
+    },
+    "shiru": {
+      "kind": "paper",
+      "light": [
+        "#efe7d8",
+        "#fcf8ee",
+        "#2f1a19",
+        "#6a514b",
+        "#cdbba5",
+        "#a01f2b"
+      ],
+      "dark": [
+        "#120d0d",
+        "#2a1c1b",
+        "#f8ede4",
+        "#cfb9ad",
+        "#6a4f48",
+        "#ff8a7a"
+      ]
+    },
+    "onmitsu": {
+      "kind": "glass",
+      "light": [
+        "#dce8e1",
+        "#f5faf6",
+        "#18372c",
+        "#466454",
+        "#99b2a2",
+        "#176346"
+      ],
+      "dark": [
+        "#0b1410",
+        "#203129",
+        "#edf7ef",
+        "#b1ccbb",
+        "#4c6d59",
+        "#73ddb1"
+      ]
+    }
+  }
+}

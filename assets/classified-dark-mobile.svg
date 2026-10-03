@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-label="Classified project. Ask for the file.">
+<defs>
+ <linearGradient id="material" x1="0" y1="0" x2="0.65" y2="1"><stop stop-color="#242425"/><stop offset="1" stop-color="#121314"/></linearGradient>
+ <linearGradient id="rim" x2="0" y2="1"><stop stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.45" stop-color="#56514a" stop-opacity="0.2"/><stop offset="1" stop-color="#56514a" stop-opacity="0.8"/></linearGradient>
+ <pattern id="weave" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 1H7M1 0V7" stroke="#56514a" stroke-width="0.7"/><path d="M4 3h2M3 5h1" stroke="#56514a" stroke-width="0.6"/></pattern>
+ <filter id="lift" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity="0.2"/></filter>
+</defs>
+<rect x="1" y="1" width="638" height="478" rx="24" fill="url(#material)" stroke="#56514a"/>
+<rect x="2" y="2" width="636" height="476" rx="22" fill="url(#weave)" opacity="0.1"/><path d="M24 471H614M27 475H610" stroke="#56514a" opacity="0.55"/>
+<rect x="3" y="3" width="634" height="474" rx="22" fill="none" stroke="url(#rim)"/>
+<g fill="#f3eadb"><rect x="32" y="70" width="390" height="40" rx="4"/><rect x="32" y="135" width="280" height="22" rx="3"/></g><text x="32" y="235" font-family="monospace" font-size="26" fill="#b9afa0">Some work stays private.</text><text x="32" y="285" font-family="monospace" font-size="25" fill="#d4b57b">Ask for the file.</text>
+</svg>

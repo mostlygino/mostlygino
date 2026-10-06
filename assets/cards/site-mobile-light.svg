@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="392" viewBox="0 0 640 392" role="img" aria-label="mostlygino.com. Visit the site.">
+<defs>
+ <linearGradient id="material" x1="0" y1="0" x2="0.65" y2="1"><stop stop-color="#fffaf0"/><stop offset="1" stop-color="#ede5d8"/></linearGradient>
+ <linearGradient id="rim" x2="0" y2="1"><stop stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.45" stop-color="#b9a991" stop-opacity="0.2"/><stop offset="1" stop-color="#b9a991" stop-opacity="0.8"/></linearGradient>
+ <pattern id="weave" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 1H7M1 0V7" stroke="#b9a991" stroke-width="0.7"/><path d="M4 3h2M3 5h1" stroke="#b9a991" stroke-width="0.6"/></pattern>
+ <filter id="lift" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity="0.2"/></filter>
+</defs>
+<rect x="1" y="1" width="638" height="390" rx="24" fill="url(#material)" stroke="#b9a991"/>
+<rect x="2" y="2" width="636" height="388" rx="22" fill="url(#weave)" opacity="0.16"/><path d="M24 383H614M27 387H610" stroke="#b9a991" opacity="0.55"/>
+<rect x="3" y="3" width="634" height="386" rx="22" fill="none" stroke="url(#rim)"/>
+<text x="48" y="52" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="650" fill="#28241e">mostlygino.com</text><text x="48" y="128" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="400" fill="#62584b">Pretty interfaces. Ugly threat</text><text x="48" y="167" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="400" fill="#62584b">models.</text><text x="48" y="226" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="400" fill="#62584b">Who I am, what I use, and a few things to</text><text x="48" y="260" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="400" fill="#62584b">find.</text><text x="48" y="314" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" font-weight="400" fill="#62584b">Visit the site ↗</text>
+</svg>

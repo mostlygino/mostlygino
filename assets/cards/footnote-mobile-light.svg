@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="259" viewBox="0 0 640 259" role="img" aria-label="Source is private. Walkthroughs on request.">
+<defs>
+ <linearGradient id="material" x1="0" y1="0" x2="0.65" y2="1"><stop stop-color="#fffaf0"/><stop offset="1" stop-color="#ede5d8"/></linearGradient>
+ <linearGradient id="rim" x2="0" y2="1"><stop stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.45" stop-color="#b9a991" stop-opacity="0.2"/><stop offset="1" stop-color="#b9a991" stop-opacity="0.8"/></linearGradient>
+ <pattern id="weave" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 1H7M1 0V7" stroke="#b9a991" stroke-width="0.7"/><path d="M4 3h2M3 5h1" stroke="#b9a991" stroke-width="0.6"/></pattern>
+ <filter id="lift" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity="0.2"/></filter>
+</defs>
+<rect x="1" y="1" width="638" height="257" rx="24" fill="url(#material)" stroke="#b9a991"/>
+<rect x="2" y="2" width="636" height="255" rx="22" fill="url(#weave)" opacity="0.16"/><path d="M24 250H614M27 254H610" stroke="#b9a991" opacity="0.55"/>
+<rect x="3" y="3" width="634" height="253" rx="22" fill="none" stroke="url(#rim)"/>
+<text x="48" y="52" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="32" font-weight="650" fill="#28241e">Source is private.</text><text x="48" y="117" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="400" fill="#62584b">Walkthroughs on request. And more, under</text><text x="48" y="151" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="400" fill="#62584b">bars: for the redacted details, get in</text><text x="48" y="185" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="400" fill="#62584b">touch.</text>
+</svg>

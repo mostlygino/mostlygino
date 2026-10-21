@@ -32,7 +32,7 @@
   <a href="#showreel"><img src="assets/icons/hettie.png?v=3b01a7c6" alt="Hettie app icon" width="96" height="96"></a>
   <a href="#showreel"><img src="assets/icons/relay.png?v=254d1f29" alt="Relay app icon" width="96" height="96"></a>
   <a href="#showreel"><img src="assets/icons/tsukumo.png?v=d0515c34" alt="Tsukumo app icon" width="96" height="96"></a>
-  <a href="#showreel"><img src="assets/icons/kuro.png?v=26e71d9a" alt="Kuro app icon" width="96" height="96"></a>
+  <a href="https://github.com/mostlygino/Kuro"><img src="assets/icons/kuro.png?v=26e71d9a" alt="Kuro app icon" width="96" height="96"></a>
   <a href="#contact"><img src="assets/icons/shiru.png?v=bd6526f7" alt="Shīru app icon" width="96" height="96"></a>
   <a href="#contact"><img src="assets/icons/onmitsu.png?v=c0172074" alt="Onmitsu privacy scanner icon" width="96" height="96"></a>
 </p>
@@ -59,7 +59,7 @@
   <a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/project-tsukumo-dark.svg?v=57053baf"><img alt="Tsukumo: A script toolbox for networks, abuse handling and daily chores, behind one TUI. Latest: v1.0: one installer, three profiles, the same result on bash and PowerShell." src="assets/cards/project-tsukumo-light.svg?v=69b49c3f" width="400"></picture></a>
 </p>
 <p align="center">
-  <a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/project-kuro-dark.svg?v=2dc8f297"><img alt="Kuro: A minimal, void-like macOS desktop with drawn badges and motion everywhere. Latest: Drawn Wi-Fi, battery and coffee badges with live cards, and a bar that renews its own Claude login." src="assets/cards/project-kuro-light.svg?v=e61efe0d" width="400"></picture></a>
+  <a href="https://github.com/mostlygino/Kuro"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/project-kuro-dark.svg?v=2dc8f297"><img alt="Kuro: A minimal, void-like macOS desktop with drawn badges and motion everywhere. Latest: Drawn Wi-Fi, battery and coffee badges with live cards, and a bar that renews its own Claude login." src="assets/cards/project-kuro-light.svg?v=e61efe0d" width="400"></picture></a>
   <a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/project-onmitsu-dark.svg?v=aed1cb2d"><img alt="Onmitsu: Personal exposure intelligence. Stack direction: Next.js, PostgreSQL, Python and Tor for public-web and selected onion-source research." src="assets/cards/project-onmitsu-light.svg?v=e0d3fbd2" width="400"></picture></a>
 </p>
 <p align="center">

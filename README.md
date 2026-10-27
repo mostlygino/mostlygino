@@ -47,7 +47,7 @@
 </p>
 
 <p align="center">
-  <a href="https://mostlygino.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/project-zeron-dark.svg?v=c59d6311"><img alt="mostlygino.com: My site. Pretty interfaces, ugly threat models. Latest: A terminal that opens like an app, a CTF with signed certificates, and /declassify for the lines I can't print." src="assets/cards/project-zeron-light.svg?v=ea2bfe1e" width="400"></picture></a>
+  <a href="https://mostlygino.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/project-koike-dark.svg?v=c59d6311"><img alt="mostlygino.com: My site. Pretty interfaces, ugly threat models. Latest: A terminal that opens like an app, a CTF with signed certificates, and /declassify for the lines I can't print." src="assets/cards/project-koike-light.svg?v=ea2bfe1e" width="400"></picture></a>
   <a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/project-enma-dark.svg?v=c5f17156"><img alt="enma: An autonomous penetration tester that can't lie about what it tested. Latest: Rebuilt as the judge of the underworld: a ledger, a mirror and a verdict it withholds until every cell is proven." src="assets/cards/project-enma-light.svg?v=b9b830f5" width="400"></picture></a>
 </p>
 <p align="center">

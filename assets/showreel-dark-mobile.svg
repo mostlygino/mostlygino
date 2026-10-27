@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-label="Showreel: zeron, enma, gravedigger, hettie, relay, tsukumo, kuro, shiru, onmitsu">
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-label="Showreel: mostlygino.com, enma, gravedigger, hettie, relay, tsukumo, kuro, shiru, onmitsu">
   <style>
     .s { transform: translateX(640px); animation: slide 37.80s infinite; }
     .d { fill: #ffffff; opacity: 0.25; animation: dot 37.80s linear infinite; }

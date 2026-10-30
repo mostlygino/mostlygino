@@ -1,9 +1,9 @@
 <a href="https://mostlygino.com">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/banner-dark-mobile.svg?v=a8a10af2">
-    <source media="(max-width: 600px)" srcset="assets/banner-light-mobile.svg?v=40fb97b3">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=12373986">
-    <img alt="Gino. Security Engineer, behind a VPN. The mostlygino.com app icon." src="assets/banner-light.svg?v=80d6cda4" width="100%">
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/banner-dark-mobile.svg?v=35685f82">
+    <source media="(max-width: 600px)" srcset="assets/banner-light-mobile.svg?v=5a02f123">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=0dc60d58">
+    <img alt="Gino. Security Engineer, behind a VPN. The mostlygino.com app icon." src="assets/banner-light.svg?v=58ecfe56" width="100%">
   </picture>
 </a>
 
@@ -39,15 +39,15 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/showreel-dark-mobile.svg?v=eab64cc9">
-    <source media="(max-width: 600px)" srcset="assets/showreel-light-mobile.svg?v=02198918">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/showreel-dark.svg?v=5174de6b">
-    <img src="assets/showreel-light.svg?v=41106efb" alt="Showreel: mostlygino.com, enma, Gravedigger, Hettie, Relay, Tsukumo, Kuro, Shīru, Onmitsu" width="100%">
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/showreel-dark-mobile.svg?v=66f5edcd">
+    <source media="(max-width: 600px)" srcset="assets/showreel-light-mobile.svg?v=522ea519">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/showreel-dark.svg?v=e34f06d1">
+    <img src="assets/showreel-light.svg?v=30017ac4" alt="Showreel: mostlygino.com, enma, Gravedigger, Hettie, Relay, Tsukumo, Kuro, Shīru, Onmitsu" width="100%">
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://mostlygino.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/project-koike-dark.svg?v=c59d6311"><img alt="mostlygino.com: My site. Pretty interfaces, ugly threat models. Latest: A terminal that opens like an app, a CTF with signed certificates, and /declassify for the lines I can't print." src="assets/cards/project-koike-light.svg?v=ea2bfe1e" width="400"></picture></a>
+  <a href="https://mostlygino.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/project-koike-dark.svg?v=ebdf68a4"><img alt="mostlygino.com: My site, a koi pond drawn in type behind every page. Latest: rebuilt as a koi pond; feed the koi, and the water keeps your hour and your weather. Set in Geist Serif." src="assets/cards/project-koike-light.svg?v=36dcf59a" width="400"></picture></a>
   <a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/project-enma-dark.svg?v=c5f17156"><img alt="enma: An autonomous penetration tester that can't lie about what it tested. Latest: Rebuilt as the judge of the underworld: a ledger, a mirror and a verdict it withholds until every cell is proven." src="assets/cards/project-enma-light.svg?v=b9b830f5" width="400"></picture></a>
 </p>
 <p align="center">
@@ -80,7 +80,7 @@
 ## More
 
 <p align="center">
-  <a href="https://mostlygino.com"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/cards/site-mobile-dark.svg?v=5043d865"><source media="(max-width: 600px)" srcset="assets/cards/site-mobile-light.svg?v=76bf78cc"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/site-dark.svg?v=f77fc6f9"><img alt="mostlygino.com: Pretty interfaces, ugly threat models. Who I am, what I use, and a few things to find. Visit the site." src="assets/cards/site-light.svg?v=542d1b78" width="100%"></picture></a>
+  <a href="https://mostlygino.com"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/cards/site-mobile-dark.svg?v=5043d865"><source media="(max-width: 600px)" srcset="assets/cards/site-mobile-light.svg?v=76bf78cc"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/site-dark.svg?v=8d8aef4e"><img alt="mostlygino.com: Pretty interfaces, ugly threat models. Who I am, what I use, and a few things to find. Visit the site." src="assets/cards/site-light.svg?v=e8f24aa0" width="100%"></picture></a>
 </p>
 
 <br>

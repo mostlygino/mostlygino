@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="132" viewBox="0 0 1280 132" role="img" aria-label="Source is private, walkthroughs on request. And more, under bars: for the redacted details, get in touch.">
+<defs>
+ <linearGradient id="material" x1="0" y1="0" x2="0.65" y2="1"><stop stop-color="#fffaf0"/><stop offset="1" stop-color="#ede5d8"/></linearGradient>
+ <linearGradient id="rim" x2="0" y2="1"><stop stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.45" stop-color="#b9a991" stop-opacity="0.2"/><stop offset="1" stop-color="#b9a991" stop-opacity="0.8"/></linearGradient>
+ <pattern id="weave" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 1H7M1 0V7" stroke="#b9a991" stroke-width="0.7"/><path d="M4 3h2M3 5h1" stroke="#b9a991" stroke-width="0.6"/></pattern>
+ <filter id="lift" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity="0.2"/></filter>
+</defs>
+<rect x="1" y="1" width="1278" height="130" rx="24" fill="url(#material)" stroke="#b9a991"/>
+<rect x="2" y="2" width="1276" height="128" rx="22" fill="url(#weave)" opacity="0.16"/><path d="M24 123H1254M27 127H1250" stroke="#b9a991" opacity="0.55"/>
+<rect x="3" y="3" width="1274" height="126" rx="22" fill="none" stroke="url(#rim)"/>
+  <g fill="none" stroke="#795322" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="44" y="58" width="30" height="23" rx="6"/><path d="M51 58v-7a8 8 0 0 1 16 0v7"/>
+  </g>
+  <g font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="96" y="60" font-size="26" font-weight="600" fill="#28241e">Source is private.</text>
+    <text x="96" y="92" font-size="20" fill="#62584b">Walkthroughs on request.</text>
+  </g>
+  <path d="M640 28v76" stroke="#b9a991" stroke-width="1.5"/>
+  <rect x="682" y="54" width="60" height="24" rx="3" fill="#28241e" stroke="#b9a991"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="764" y="60" font-size="26" font-weight="600" fill="#28241e">And more, under bars.</text>
+    <text x="764" y="92" font-size="20" fill="#62584b">For the redacted details, get in touch.</text>
+  </g>
+  <text x="1232" y="80" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif" font-size="34" fill="#795322">→</text>
+</svg>
